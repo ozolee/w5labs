@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="31748bb2-2565-4c6c-a497-d75842e86f1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Http/Controllers/WeatherController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Models/Weather.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/Services/WeatherService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/app/View/Components/WeatherApp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/config/sanctum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/database/migrations/2022_07_16_000000_create_weather_history_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/resources/views/components/weather-app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/vite.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="8eba2dc8-3b17-4709-b96e-66c79d10e89c" name="w5labs_local" port="8000">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/weather/public/index.php" remote-root="D:/Xampp_8.0.19/htdocs/w5labs/weather/public/index.php" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP_8.0.19" />
+  <component name="ProjectId" id="2C1ZiPYpYOK1VNgIb7d8C7256Yh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/weather/app/Models" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Xampp_8.0.19\htdocs\w5labs\weather\app\Models" />
+      <recent name="D:\Xampp_8.0.19\htdocs\w5labs\weather\app\Http\Controllers" />
+      <recent name="D:\Xampp_8.0.19\htdocs\w5labs\weather\resources\views" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="weather-debug" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="FILTER" server_name="w5labs_local" session_id="MY_AWESOME_KEY">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31748bb2-2565-4c6c-a497-d75842e86f1b" name="Default Changelist" comment="" />
+      <created>1657972178192</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657972178192</updated>
+      <workItem from="1657972180646" duration="36812000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/weather/resources/views/weather.blade.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/weather/app/Models/Weather.php</url>
+          <line>39</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

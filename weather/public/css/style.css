@@ -1,0 +1,83 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(88,88,205,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.app-holder {
+    margin: 20px auto 0;
+}
+
+#weather-app {
+    display: block;
+    margin: 0 auto;
+    background-color: #4a4848;
+    text-align: center;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 0 30px #35353e;
+    border: 1px solid #35353e;
+    border-radius: 20px;
+}
+
+.location {
+    font-size: 30px;
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+    border-radius: 20px 20px 0 0;
+    background-color: #35353e;
+}
+
+.location span {
+    font-size: 18px;
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.history {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.history li{
+    width: 100%;
+    list-style: none;
+    padding: 5px 0;
+    border-top: 1px solid #35353e;
+    text-shadow: 0 0 5px black;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.day {
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+.date {
+    font-size: 20px;
+    padding: 0 10px;
+    width: 45%;
+    text-align: left;
+}
+
+.max {
+    padding: 0 10px;
+    color: #c44;
+}
+
+.min {
+    padding: 0 10px;
+    color: #07e9fb;
+}
