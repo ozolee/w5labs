@@ -15,12 +15,12 @@ class WeatherApp extends Component
      *
      * @return void
      */
-    public function __construct($weather)
+    public function __construct(array $weather)
     {
         $this->initHistory(array_reverse($weather));
     }
 
-    private function initHistory($weatherHistory)
+    private function initHistory(array $weatherHistory)
     {
         $this->todayWeather = $weatherHistory[0];
         unset($weatherHistory[0]);

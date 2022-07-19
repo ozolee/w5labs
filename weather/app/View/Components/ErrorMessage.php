@@ -13,7 +13,7 @@ class ErrorMessage extends Component
      *
      * @return void
      */
-    public function __construct($message)
+    public function __construct(string $message)
     {
         $this->message = $message;
     }
