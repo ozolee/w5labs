@@ -1,10 +1,20 @@
 <div id="weather-app">
-    <div class="location">
-        Budapest, Hungary
-        <span>weather history</span>
+    <div class="today">
+        <div class="col degree">
+            <div class="max">{{$todayWeather['temp_max']}} &#176;C</div>
+            <div class="min">{{$todayWeather['temp_min']}} &#176;C</div>
+        </div>
+        <div class="col ">
+            <div class="row location">
+                Budapest, Hungary
+            </div>
+            <div class="hide">{{$todayDate = strtotime($todayWeather['date'])}}</div>
+            <div class="col">{{date('D', $todayDate)}},</div>
+            <div class="col">{{date('m.d', $todayDate)}}</div>
+        </div>
     </div>
     <ul class="history">
-        @foreach($weather as $day)
+        @foreach($weatherHistory as $day)
             <div class="hide">{{$date = strtotime($day['date'])}}</div>
             <li>
                 <div class="col day">{{date('D', $date)}}</div>

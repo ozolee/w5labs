@@ -25,14 +25,14 @@ class WeatherService
             $jsonDays = $weatherResponse->json();
             return $this->createResponse($jsonDays['daily']);
         } else {
-            return $this->weatherModel->getWeatherHistory($this->pastDays);
+            return json_decode(json_encode($this->weatherModel->getWeatherHistory($this->pastDays)), true);
         }
     }
 
-    private function createResponse($days): array
+    private function createResponse(array $days): array
     {
         $responseDays = [];
-        for ($counter = 0; $counter < $this->pastDays; $counter++) {
+        for ($counter = 0; $counter <= $this->pastDays; $counter++) {
             $day = [
               'date' => $days['time'][$counter],
               'temp_max' => $days['temperature_2m_max'][$counter],

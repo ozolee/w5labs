@@ -7,7 +7,8 @@ use Illuminate\View\Component;
 
 class WeatherApp extends Component
 {
-    public $weather;
+    public array $todayWeather;
+    public array $weatherHistory;
 
     /**
      * Create a new component instance.
@@ -16,7 +17,15 @@ class WeatherApp extends Component
      */
     public function __construct($weather)
     {
-        $this->weather = $weather;
+        $this->initHistory(array_reverse($weather));
+    }
+
+    private function initHistory($weatherHistory)
+    {
+        $this->todayWeather = $weatherHistory[0];
+        unset($weatherHistory[0]);
+        $this->weatherHistory = $weatherHistory;
+
     }
 
     /**

@@ -9,6 +9,29 @@ body {
     margin: 20px auto 0;
 }
 
+.col {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.row {
+    display: block;
+}
+
+.error-message {
+    padding: 20px;
+    background-color: #c44;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #35353e;
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    max-width: 90%;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0 0 5px black;
+}
+
 #weather-app {
     display: block;
     margin: 0 auto;
@@ -21,18 +44,25 @@ body {
     border-radius: 20px;
 }
 
-.location {
-    font-size: 30px;
+.today {
     width: 100%;
     display: block;
     padding: 10px 0;
     border-radius: 20px 20px 0 0;
     background-color: #35353e;
+    text-shadow: 0 0 5px black;
 }
 
-.location span {
-    font-size: 18px;
-    display: block;
+.today .degree {
+    width: 150px;
+}
+
+.today .max {
+    font-size: 28px;
+}
+
+.location {
+    font-size: 20px;
 }
 
 .hide {
@@ -41,7 +71,7 @@ body {
 
 .history {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -55,29 +85,26 @@ body {
     text-shadow: 0 0 5px black;
 }
 
-.col {
-    display: inline-block;
-    vertical-align: middle;
-}
-
 .day {
     font-size: 25px;
-    padding: 0 10px;
+    width: 70px;
 }
 
 .date {
     font-size: 20px;
     padding: 0 10px;
-    width: 45%;
+    width: calc(100% - 180px);
     text-align: left;
 }
 
+.degree {
+    width: 70px;
+}
+
 .max {
-    padding: 0 10px;
     color: #c44;
 }
 
 .min {
-    padding: 0 10px;
     color: #07e9fb;
 }

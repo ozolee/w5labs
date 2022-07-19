@@ -13,7 +13,11 @@
 
     <body>
         <div class="app-holder">
-            <x-weather-app :weather="$weather" />
+            @if (count($weather))
+                <x-weather-app :weather="$weather" />
+            @else
+                <x-error-message :message='"Unreachable data, please try again later!"' />
+            @endif
         </div>
     </body>
 </html>
